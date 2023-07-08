@@ -13,8 +13,9 @@ export default function Profile() {
         <p className="time">Last scanned on March 20th, 2023 11:30 PM IST</p>
       </div>
       <div className="card-wrap">
-        {cardData.map((eachData) => (
+        {cardData.map((eachData, i) => (
           <Card
+            key={i}
             amount={eachData.amount}
             description={eachData.description}
             color={eachData.color}

@@ -24,9 +24,13 @@ export default function Table(props) {
         </tr>
         {tableContent.map((item) => (
           <tr>
-            {item.map((eachItem) => (
-              <td>{eachItem}</td>
-            ))}
+            {item.map((eachItem, i) =>
+              i == 0 ? (
+                <td className="link-item">{eachItem}</td>
+              ) : (
+                <td>{eachItem}</td>
+              )
+            )}
           </tr>
         ))}
       </table>
