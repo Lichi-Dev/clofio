@@ -1,0 +1,28 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 70px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.name {
+  font-size: 25px;
+  font-weight: 400;
+}
+.time {
+  font-size: 12px;
+  font-weight: 400;
+}
+.card-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+.table-contaniner {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 90vw;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.table-header {
+  text-align: left;
+}
+.table-header-container {
+  border-bottom: 2px solid black !important;
+}
+.line {
+  background-color: black;
+  height: 1px;
+  border: 0;
+}
+.table-main-heading {
+  font-size: 20px;
+}
