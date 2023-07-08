@@ -26,7 +26,9 @@ export default function Table(props) {
           <tr>
             {item.map((eachItem, i) =>
               i == 0 ? (
-                <td className="link-item">{eachItem}</td>
+                <td className="link-item">
+                  <a>{eachItem}</a>
+                </td>
               ) : (
                 <td>{eachItem}</td>
               )
